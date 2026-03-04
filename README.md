@@ -10,4 +10,5 @@ chmod +x submit_job.sh
 
 ./submit_job.sh
 
-## To cite this note and code, please refer to this DOI: 10.5281/zenodo.18868509
+## To cite this note and code
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868509.svg)](https://doi.org/10.5281/zenodo.18868509)
