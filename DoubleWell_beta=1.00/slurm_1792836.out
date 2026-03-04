@@ -1,0 +1,25 @@
+Job started at Mon Nov 10 12:54:45 PM EST 2025
+rm -f ../auto/*.o main.exe
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../inputs/input.cpp -o ../auto/input.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../sampling/OP_init.cpp -o ../auto/OP_init.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../sampling/OP_staging.cpp -o ../auto/OP_staging.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../sampling/OP_force.cpp -o ../auto/OP_force.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../sampling/OP_LG.cpp -o ../auto/OP_LG.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -c ../auto/main.cpp -o ../auto/main.o
+g++ -std=c++17 -O2 -Wall -I../include -I../external -o main.exe ../auto/input.o ../auto/OP_init.o ../auto/OP_staging.o ../auto/OP_force.o ../auto/OP_LG.o ../auto/main.o
+./main.exe
+q-s tuple (stg_pos[:,0], (stg_pos[:,P])) appended to: "/scratch/hh2635/Publication/Open_Path_Integral_Sampling/OPIMD_replica/TOYS2/src/auto/../../results/DoubleWell_beta=1.00/qs_tuple.bin"
+Open Polymer Tuple -> "/scratch/hh2635/Publication/Open_Path_Integral_Sampling/OPIMD_replica/TOYS2/src/auto/../../results/DoubleWell_beta=1.00/qs_tuple.bin"
+rm -f ../auto/*.o main.exe
+Density matrix rho(q,s) saved to ../../results/DoubleWell_beta=1.00/rho_qs.csv
+Wigner function plot saved to ../../results/DoubleWell_beta=1.00/rho_qs.png
+Wigner function saved to ../../results/DoubleWell_beta=1.00/Wigner_exact.csv
+Wigner function plot saved to ../../results/DoubleWell_beta=1.00/Wigner_exact.png
+Marginal q distribution saved to ../../results/DoubleWell_beta=1.00/q_distribution.csv
+Marginal s distribution saved to ../../results/DoubleWell_beta=1.00/s_distribution.csv
+Gaussian with sampled standard deviation saved to ../../results/DoubleWell_beta=1.00/s_Gaussian.csv
+Marginal p distribution saved to ../../results/DoubleWell_beta=1.00/p_distribution.csv
+Wigner function with marginal distributions saved to ../../results/DoubleWell_beta=1.00/Wigner_marginal.csv
+End-to-end distance distribution plot saved to ../../results/DoubleWell_beta=1.00/s_distribution.png
+Wigner function plot saved to ../../results/DoubleWell_beta=1.00/Wigner_marginal.png
+Job finished at Mon Nov 10 01:35:12 PM EST 2025
