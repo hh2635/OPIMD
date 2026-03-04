@@ -1,1 +1,11 @@
-To run the simulation code, cd src/inputs/parameters.json and modify the parameters; then cd src/auto/ and ./submit_jon.sh; this will run the simulation for sampling and analysis to the sampling result. 
+### 1. Configuration
+Navigate to the parameter file to configure your simulation settings:
+```bash
+# Locate the parameter file
+# Note: Edit this file with any text editor (vim, nano, or vs code)
+vi src/inputs/parameters.json
+
+### 2. Simulation
+cd src/auto/
+chmod +x submit_job.sh  # Ensure the script is executable
+./submit_job.sh
