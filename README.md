@@ -1,9 +1,9 @@
-# Run this simulation [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868509.svg)](https://doi.org/10.5281/zenodo.18868509)
+# README [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868509.svg)](https://doi.org/10.5281/zenodo.18868509)
 
-## document and note
+## Document
 refer to the .pdf document for the physics behind this project
 
-## to reproduce the result
+## Reproduction
 vi src/inputs/parameters.json # modify the parameters 
 
 cd src/auto/
