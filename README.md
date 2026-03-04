@@ -4,6 +4,7 @@
 refer to the .pdf document for the physics behind this project
 
 ## Reproduction
+```bash
 vi src/inputs/parameters.json # modify the parameters 
 
 cd src/auto/
