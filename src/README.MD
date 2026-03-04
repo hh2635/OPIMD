@@ -1,1 +1,1 @@
-To run the simulation code, go to src/inputs/parameters.json and modify the parameters, then go to src/auto
+To run the simulation code, cd src/inputs/parameters.json and modify the parameters; then cd src/auto/ and ./submit_jon.sh; this will run the simulation for sampling and analysis to the sampling result. 
