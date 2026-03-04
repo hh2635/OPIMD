@@ -5,6 +5,9 @@ refer to the .pdf document for the physics behind this project
 
 ## to reproduce the result
 vi src/inputs/parameters.json # modify the parameters 
+
 cd src/auto/
+
 chmod +x submit_job.sh 
+
 ./submit_job.sh
