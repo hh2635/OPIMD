@@ -9,3 +9,5 @@ cd src/auto/
 chmod +x submit_job.sh 
 
 ./submit_job.sh
+
+## To cite this note and code, please refer to this DOI: 10.5281/zenodo.18868509
