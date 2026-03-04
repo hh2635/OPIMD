@@ -1,0 +1,37 @@
+{
+    "physical_constants": {
+        "hbar": 1.0,
+        "kB": 1.0
+    },
+    "open_chain_parameters": {
+        "mass": 1.0,
+        "P": 64
+    },
+    "NHC_parameters": {
+        "ExDoF": 5,
+        "tau": 1.0,
+        "dN": 1
+    },
+    "LG_parameters": {
+        "gamma": 8.0
+    },
+    "simulation_parameters": {
+        "T": 0.125,
+        "N": 1000,
+        "x_min": -2.0,
+        "x_max": 2.0,
+        "dt": 0.01,
+        "steps": 200000,
+        "save_interval": 10,
+        "potential_type": "Quartic"
+    },
+    "measurement_parameters": {
+        "s_min": -6.0,
+        "s_max": 6.0,
+        "q_min": -5.0,
+        "q_max": 5.0,
+        "p_min": -5.0,
+        "p_max": 5.0,
+        "nbins": 129
+    }
+}
